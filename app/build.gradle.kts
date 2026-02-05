@@ -12,8 +12,8 @@ android {
 
     defaultConfig {
         applicationId = "com.virtualworld.app"
-        minSdk = 26
-        targetSdk = 34
+        minSdk = 21
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0.0"
 
@@ -62,6 +62,12 @@ android {
 }
 
 dependencies {
+    implementation(project(":core"))
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+
     // Core Android
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
@@ -120,17 +126,11 @@ dependencies {
     // JSON
     implementation("com.google.code.gson:gson:2.10.1")
 
-    // 3D Rendering (for virtual world)
-    implementation("com.google.ar.sceneform:core:1.17.1")
-    
-    // Biometric
-    implementation("androidx.biometric:biometric:1.1.0")
+
 
     // WorkManager
     implementation("androidx.work:work-runtime-ktx:2.9.0")
 
-    // Splash Screen
-    implementation("androidx.core:core-splashscreen:1.0.1")
 
     // Testing
     testImplementation("junit:junit:4.13.2")

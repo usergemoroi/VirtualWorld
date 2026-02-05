@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "VirtualWorld"
-include(":app")
+include(":app", ":core")
