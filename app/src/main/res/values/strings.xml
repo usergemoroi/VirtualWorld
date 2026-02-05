@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VirtualWorld</string>
+    <string name="welcome">Welcome to VirtualWorld</string>
+    <string name="enter_new_reality">Enter a New Reality</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="display_name">Display Name</string>
+    <string name="home">Home</string>
+    <string name="friends">Friends</string>
+    <string name="messages">Messages</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="avatar_customization">Avatar Customization</string>
+    <string name="purchase_history">Purchase History</string>
+    <string name="virtual_world">Virtual World</string>
+    <string name="join_world">Join World</string>
+    <string name="featured_worlds">Featured Worlds</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+</resources>
