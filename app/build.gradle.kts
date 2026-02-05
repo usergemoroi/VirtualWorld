@@ -141,3 +141,12 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
+
+val virtualWorldApk = layout.buildDirectory.file("outputs/apk/debug/app-debug.apk")
+
+tasks.register<Copy>("assembleVirtualWorldApk") {
+    dependsOn("assembleDebug")
+    from(virtualWorldApk)
+    into(rootProject.layout.projectDirectory.asFile)
+    rename("app-debug.apk", "VirtualWorld.apk")
+}
