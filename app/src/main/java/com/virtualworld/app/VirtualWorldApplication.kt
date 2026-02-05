@@ -9,6 +9,7 @@ class VirtualWorldApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         instance = this
+        com.virtualworld.core.VirtualCore.init(this)
     }
 
     companion object {
