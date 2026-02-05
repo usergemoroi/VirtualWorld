@@ -1,0 +1,28 @@
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Build files
+bin/
+gen/
+out/
+build/
+.gradle/
+local.properties
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
